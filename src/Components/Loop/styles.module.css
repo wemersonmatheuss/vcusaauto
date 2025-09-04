@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container img {
+    width: 600px;
+    height: auto;
+}

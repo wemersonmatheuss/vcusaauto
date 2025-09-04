@@ -1,6 +1,7 @@
 import { Main } from "./Components/Main"
 import { Carousel } from "./Components/Carousel"
 import { Contradiction } from "./Components/Contradiction"
+import { Loop } from "./Components/Loop"
 
 export function App() {
   return (
@@ -10,6 +11,8 @@ export function App() {
       <Carousel/>
 
       <Contradiction/>
+
+      <Loop/>
     </div>
   )
 }
