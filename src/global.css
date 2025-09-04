@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gradient-orange: linear-gradient(90deg, #FF9000 25%, #FFBA00 100%);
+
+    --text-color-black: #040404;
+    --text-color-white: #FFF;
+}
