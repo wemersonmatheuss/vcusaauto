@@ -6,6 +6,7 @@ import { Differential } from "./Components/Differential"
 import { About } from "./Components/About"
 import { Price } from "./Components/Price"
 import { Faq } from "./Components/Faq"
+import { Footer } from "./Components/Footer"
 
 import logoVc from "./assets/svg/logo-vcusa.svg"
 
@@ -39,6 +40,8 @@ export function App() {
       />
 
       <Faq/>
+
+      <Footer/>
     </div>
   )
 }
