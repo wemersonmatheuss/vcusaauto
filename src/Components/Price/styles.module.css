@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    background-image: url('../../assets/image-dolar2.png');
+    background-repeat: no-repeat;       /* Evita repetição da imagem */
+    background-size: cover;             /* Faz a imagem cobrir todo o container */
+    background-position: center;
+
+    padding-block: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-weight: 600;
+    
+    color: var(--text-color-white);
+}
+
+.divPrice {
+    background: var(--text-color-white);
+
+    padding: 35px 25px;
+
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.price p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.payments {
+    margin: 0 auto;
+}
+
+.payments img {
+    width: 400px;
+    height: auto;
+}
