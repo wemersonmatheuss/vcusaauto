@@ -11,4 +11,27 @@
     font-weight: 600;
     
     cursor: pointer;
+
+    animation: pulseGlowOrange 2s infinite;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container:hover {
+    opacity: 0.5;
+}
+
+@keyframes pulseGlowOrange {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 144, 0, 0.6);
+  }
+  50% {
+    transform: scale(1.07);
+    box-shadow: 0 0 15px 6px rgba(229, 137, 18, 0.3);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 144, 0, 0);
+  }
 }
