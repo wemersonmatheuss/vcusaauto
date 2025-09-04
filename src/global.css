@@ -8,7 +8,12 @@
 
 :root {
     --gradient-orange: linear-gradient(90deg, #FF9000 25%, #FFBA00 100%);
+    --backgroun-color: #0D1736;
 
     --text-color-black: #040404;
     --text-color-white: #FFF;
+}
+
+body {
+    background: var(--backgroun-color);
 }
