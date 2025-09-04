@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
 
-    padding: 91px 80px;
+    padding: 91px 80px 10px 80px;
 
     display: flex;
     flex-direction: column;
