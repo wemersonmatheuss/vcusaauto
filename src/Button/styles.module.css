@@ -1,0 +1,14 @@
+.container {
+    background: var(--gradient-orange);
+    color: var(--text-color-black);
+
+    padding: 11px 25px;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 600;
+    
+    cursor: pointer;
+}
