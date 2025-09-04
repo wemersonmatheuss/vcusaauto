@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 51px 113px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    color: var(--text-color-white);
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: 600;
+
+    text-align: center;   
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 0 200px;
+
+    text-align: center;
+}
+
+.container button {
+    margin: 37px;
+}
