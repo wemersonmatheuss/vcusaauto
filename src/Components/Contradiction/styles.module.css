@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 91px 80px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 600;
+
+    color: var(--text-color-white);
+}
+
+.sentences {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cta h3 {
+    font-size: 25px;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: var(--text-color-white);
+}
+
+.cta h3 span {
+    background: var(--gradient-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
