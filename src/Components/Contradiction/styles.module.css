@@ -56,3 +56,9 @@
         font-size: 22px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .title h2 {
+        font-size: 25px;
+    }
+}

@@ -78,3 +78,13 @@
         font-size: 28px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container .description h2 {
+        font-size: 25px;
+    }
+
+    .container .description p {
+        line-height: 140%;
+    }
+}

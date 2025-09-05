@@ -82,3 +82,17 @@
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container h2 {
+        font-size: 25px;
+    }
+
+    .divPrice {
+        width: 100%;
+    }
+
+    .payments img {
+        width: 300px;
+    }
+}

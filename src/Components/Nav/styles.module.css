@@ -29,3 +29,13 @@
         width: 200px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container {
+        justify-content: center;
+    }
+
+    button {
+        display: none;
+    }
+}

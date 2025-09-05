@@ -88,3 +88,11 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 441px) {
+  .container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 110%;
+  }
+}
