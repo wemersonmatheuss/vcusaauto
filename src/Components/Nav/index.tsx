@@ -6,7 +6,7 @@ import { Button } from "../Button"
 
 export function Nav() {
     return (
-        <nav className={styles.container}>
+        <nav className={styles.container} id="nav">
             <img src={logo} alt="Logo da VCusaAuto" />
 
             <Button name="Fale conosco!"/>

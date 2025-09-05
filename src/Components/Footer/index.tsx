@@ -9,7 +9,7 @@ export function Footer() {
             <div className={styles.top}>
                 <img src={ logo } alt="Imagem da logo da VCusaAUTO" />
 
-                <a href="#"> 
+                <a href="#nav"> 
                     <img src={ arrow } alt="Icone de flecha para cima" />
                     <span>Voltar ao topo</span>
                 </a>
@@ -19,7 +19,7 @@ export function Footer() {
 
             <div className={styles.bottom}>
                 <p>2025 © VC USA Auto Service.</p>
-                <a href="#">Desenvolvido e mantido por Wemerson Dev.</a>
+                <a href="https://www.instagram.com/wemersonmth/" target="_blank" rel="noopener">Desenvolvido e mantido por Wemerson Dev.</a>
             </div>
         </footer>
     )
