@@ -18,6 +18,7 @@
 .container h2 {
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
     
     color: var(--text-color-white);
 }
@@ -60,4 +61,10 @@
 .payments img {
     width: 400px;
     height: auto;
+}
+
+@media screen and (max-width: 901px) {
+    .container h2 {
+        font-size: 30px;
+    }
 }

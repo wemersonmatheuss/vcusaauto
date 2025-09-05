@@ -47,3 +47,17 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 901px) {
+    .container {
+        padding: 40px 50px;
+    }
+
+    .container .description h2 {
+        font-size: 30px;
+    }
+
+    .container .description p {
+        font-size: 16px;
+    }
+}
