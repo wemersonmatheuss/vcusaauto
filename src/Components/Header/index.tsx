@@ -8,7 +8,7 @@ export function Header() {
             <h1> Do Zero à Liberdade Financeira com Carros nos EUA</h1>
             <p>Aprenda a comprar carros em leilões americanos por preços muito abaixo do mercado e conquiste independência financeira, mesmo sem documentação completa.</p>
 
-            <Button name="QUERO GARANTIR MINHA VAGA!"/>
+            <Button name="QUERO MINHA VAGA!"/>
         </div>
     )
 }
