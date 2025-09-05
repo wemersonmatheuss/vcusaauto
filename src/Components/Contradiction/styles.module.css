@@ -42,3 +42,17 @@
         padding: 61px 50px 0px 50px;
     }
 }
+
+@media screen and (max-width: 579px) {
+    .container {
+        padding: 51px 20px 0px 20px;
+    }
+
+    .title h2 {
+        font-size: 28px;
+    }
+
+    .cta h3 {
+        font-size: 22px;
+    }
+}

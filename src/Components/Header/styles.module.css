@@ -74,3 +74,17 @@
     margin: 0 20px;
   }
 }
+
+@media screen and (max-width: 579px) {
+  .container {
+    padding: 40px 20px;
+  }
+
+  .container h1 {
+    font-size: 35px;
+  }
+
+  .container p {
+    font-size: 16px;
+  }
+}

@@ -13,3 +13,9 @@
     width: 600px;
     height: auto;
 }
+
+@media screen and (max-width: 579px) {
+    .container img {
+        width: 400px;
+    }
+}

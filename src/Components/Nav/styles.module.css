@@ -19,3 +19,13 @@
         padding: 40px 50px;
     }
 }
+
+@media screen and (max-width: 579px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container img {
+        width: 200px;
+    }
+}

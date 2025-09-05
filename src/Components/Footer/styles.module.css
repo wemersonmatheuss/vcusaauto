@@ -60,3 +60,25 @@
 
     color: rgb(239, 28, 28);
 }
+
+@media screen and (max-width: 579px) {
+    .container {
+        padding: 50px 20px;
+    }
+
+    .top > img {
+        width: 120px;
+    }
+
+    .top a img {
+        width: 20px;
+    }
+
+    .top a {
+        font-size: 14px;
+    }
+
+    .bottom p, a {
+        font-size: 14px;
+    }
+}

@@ -68,3 +68,17 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 579px) {
+    .container {
+        padding: 60px 20px;
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+
+    .price p {
+        font-size: 25px;
+    }
+}

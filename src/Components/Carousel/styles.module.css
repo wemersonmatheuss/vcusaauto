@@ -32,3 +32,9 @@
         transform: translateX(-50%);
     }
 }
+
+@media screen and (max-width: 579px) {
+    .image {
+        width: 350px;
+    }
+}
