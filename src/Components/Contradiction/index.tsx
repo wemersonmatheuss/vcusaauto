@@ -6,7 +6,7 @@ export function Contradiction() {
     return (
         <section className={styles.container}>
             <div className={styles.title}>
-                <h2>Você acabou de chegar nos EUA ou já mora aqi há algum tempo e:</h2>
+                <h2>Você acabou de chegar nos EUA ou já mora aqui há algum tempo e:</h2>
             </div>
 
             <div className={styles.sentences}>

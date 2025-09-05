@@ -92,3 +92,13 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .cta {
+        padding: 30px;
+    }
+
+    .cta h3 {
+        font-size: 20px;
+    }
+}

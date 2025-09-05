@@ -17,3 +17,9 @@
 body {
     background: var(--backgroun-color);
 }
+
+body, html {
+    scroll-behavior: smooth;
+
+    overflow-x: hidden;
+}
