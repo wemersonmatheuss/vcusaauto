@@ -23,12 +23,34 @@ export function App() {
 
       <Differential/>
 
-      <About 
-      image={logoVc} 
-      title="Não é só um curso. É um caminho para sua liberdade!" 
-      description="Muitos brasileiros que chegam aos Estados Unidos enfrentam a mesma barreira: falta de documentos, crédito limitado e a dificuldade de conquistar estabilidade logo no começo da vida. Mas a verdade é que isso não precisa ser um obstáculo.
-      Nós desenvolvemos um método exclusivo pensado para quem está começando agora nos EUA e deseja construir um futuro com mais segurança e oportunidades. Um passo a passo simples, direto e comprovado, que mostra como superar as limitações e abrir portas que antes pareciam fechadas.
-      Aqui, você não encontra apenas conhecimento técnico, mas uma nova forma de enxergar suas possibilidades. Você vai aprender estratégias práticas que podem ser aplicadas imediatamente, independentemente do seu nível de experiência ou da sua situação atual."/> 
+      <About
+        image={logoVc}
+        title="Não é só um curso. É um caminho para sua liberdade!"
+        description={
+          <>
+            <strong>Leilão 1 – Copart</strong><br />
+            A Copart é uma das maiores plataformas de leilão de veículos do mundo, especializada em carros sinistrados,
+            recuperados de financiamento, e veículos para revenda ou desmanche. Ideal para quem busca oportunidades
+            em veículos com pequenas avarias ou para quem trabalha com peças e recuperação.
+
+            <br /><br />
+
+            <strong>Leilão 2 – IAAI (Insurance Auto Auctions)</strong><br />
+            A IAAI é referência em leilões de veículos provenientes de seguradoras, bancos e empresas de leasing.
+            Este leilão oferece uma grande seleção de veículos sinistrados, roubados, recuperados e retomados de financiamento.
+            É uma excelente opção para quem atua no setor de reconstrução automotiva ou para quem procura oportunidades
+            abaixo do valor de mercado.
+
+            <br /><br />
+
+            <strong>Leilão 3 – Manheim</strong><br />
+            Reconhecida por seu foco em veículos seminovos e usados em bom estado, a Manheim é uma das maiores redes
+            de leilões automotivos voltadas ao mercado de revenda. Seus leilões contam com veículos de locadoras,
+            frotas corporativas e concessionárias, geralmente com manutenção em dia e boas condições gerais.
+            É o leilão ideal para revendedores, lojistas e compradores que buscam veículos prontos para uso com menor risco.
+          </>
+        }
+      />
 
       <Price/>
 

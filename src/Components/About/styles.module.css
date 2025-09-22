@@ -29,13 +29,17 @@
     color: var(--text-color-white);
 }
 
-.container .description p {
-    font-size: 18px;
-    font-family: 400;
+.container .description > div {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #fff;
+}
 
-    line-height: 130%;
-
-    color: var(--text-color-white);
+.container .description > div strong {
+  background: var(--gradient-orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 1100px) {
