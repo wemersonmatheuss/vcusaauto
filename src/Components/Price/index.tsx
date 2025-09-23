@@ -18,7 +18,7 @@ export function Price() {
                 </div>
 
                 <div className={styles.price}>
-                    <p>US$ 400</p>
+                    <p>12x de US$ 33,00</p>
                     <Button name="COMPRAR AGORA"/>
                 </div>
 

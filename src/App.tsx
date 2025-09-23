@@ -9,6 +9,7 @@ import { Faq } from "./Components/Faq"
 import { Footer } from "./Components/Footer"
 
 import logoVc from "./assets/svg/logo-vcusa.svg"
+import person from "./assets/person-removebg-preview.png"
 
 export function App() {
   return (
@@ -50,15 +51,18 @@ export function App() {
             É o leilão ideal para revendedores, lojistas e compradores que buscam veículos prontos para uso com menor risco.
           </>
         }
+
+        imageWidth="50%"
       />
 
       <Price/>
 
       <About 
-      image={ logoVc }
+      image={ person }
       title="Mas afinal, quem somos?"
       description="Somos um grupo de investidores brasileiros que, por gostar muito de carros e observar que existe uma forma de levar liberdade financeira para brasileiros que vivem no exterior, se uniu e, além da VCUSA Auto Sales, que é nosso dealer (revenda de carros), fundou a VCUSA Auto Service.
       Desde então, com a ideia de ajudar seus seguidores a conquistar a tão sonhada liberdade financeira revendendo carros, o grupo, além de investir nos carros de leilão para revenda na VCUSA Auto Sales, iniciou investimentos na parte educacional e de broker, onde o sócio Adriano, responsável pela gestão da companhia em solo americano, encabeçou o projeto e passou a ensinar sobre a parte técnica de como adquirir e escolher os melhores carros e, assim, conquistar lucros através da parceria e união com nossa organização empresarial."
+      imageWidth="90%"
       />
 
       <Faq/>
