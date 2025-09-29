@@ -12,7 +12,7 @@ export function Price() {
             <div className={styles.divPrice}>
                 <div className={styles.points}>
                     <Point name="Como participar de leilões de forma segura e legal."/>
-                    <Point name="Como comprar carros por valores muito abaixo da tabela."/>
+                    <Point name="Como comprar carros com valores muito abaixo da tabela."/>
                     <Point name="Estratégias para revender ou usar o carro sem burocracia."/>
                     <Point name="Passo a passo do zero, mesmo que você nunca tenha comprado antes."/>
                 </div>

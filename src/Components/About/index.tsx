@@ -1,18 +1,21 @@
 import styles from "./styles.module.css"
-
 import type { ReactNode } from "react";
 
 type Props = {
   image: string;
   title: string;
   description: ReactNode;
-  imageWidth?: string; // permite customizar o width da imagem
+  imageWidth?: string;
+  roundedBg?: boolean; // nova prop para moldura circular
 };
 
+export function About({ image, title, description, imageWidth, roundedBg }: Props) {
+  // Classes dinâmicas
+  const imgClass = `
+    ${imageWidth === '80%' ? styles.imgLarge : ''} 
+    ${roundedBg ? styles.roundedBg : ''}
+  `;
 
-export function About({ image, title, description, imageWidth }: Props) {
-  // Se imageWidth for passado, aplica uma classe especial
-  const imgClass = imageWidth === '80%' ? `${styles.imgLarge}` : '';
   return (
     <div className={styles.container}>
       <img src={image} alt="" className={imgClass} />

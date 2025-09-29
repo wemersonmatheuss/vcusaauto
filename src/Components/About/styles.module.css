@@ -10,16 +10,25 @@
 }
 
 .container img {
-    width: 50%;
+    width: 30%;
     height: auto;
 }
 
-/* .imgLarge {
+.imgLarge {
     width: 90% !important;
     max-width: 600px;
     min-width: 220px;
     height: auto;
-} */
+}
+
+/* Moldura circular branca */
+.roundedBg {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px; /* aumenta/diminui conforme quiser */
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* opcional */
+}
 
 .container .description {
     width: 40%;
@@ -31,8 +40,7 @@
 
 .container .description h2 {
     font-size: 35px;
-    font-size: 600;
-
+    font-weight: 600;
     color: var(--text-color-white);
 }
 
@@ -77,9 +85,12 @@
 @media screen and (max-width: 579px) {
     .container {
         padding: 40px 20px;
-
         flex-direction: column;
         gap: 50px;
+    }
+
+    .container img {
+        width: 70%;
     }
 
     .container .description {
@@ -97,7 +108,7 @@
     }
 
     .container img {
-        width: 100%;
+        width: 70%;
     }
 
     .container .description h2 {

@@ -14,15 +14,15 @@ import person from "./assets/person-removebg-preview.png"
 export function App() {
   return (
     <div>
-      <Main/>
+      <Main />
 
-      <Carousel/>
+      <Carousel />
 
-      <Contradiction/>
+      <Contradiction />
 
-      <Loop/>
+      <Loop />
 
-      <Differential/>
+      <Differential />
 
       <About
         image={logoVc}
@@ -30,7 +30,7 @@ export function App() {
         description={
           <>
             <strong>Leilão 1 – Copart</strong><br />
-            A Copart é uma das maiores plataformas de leilão de veículos do mundo, especializada em carros sinistrados,
+            O Copart é uma das maiores plataformas de leilão de veículos do mundo, especializado em carros sinistrados,
             recuperados de financiamento, e veículos para revenda ou desmanche. Ideal para quem busca oportunidades
             em veículos com pequenas avarias ou para quem trabalha com peças e recuperação.
 
@@ -45,29 +45,29 @@ export function App() {
             <br /><br />
 
             <strong>Leilão 3 – Manheim</strong><br />
-            Reconhecida por seu foco em veículos seminovos e usados em bom estado, a Manheim é uma das maiores redes
-            de leilões automotivos voltadas ao mercado de revenda. Seus leilões contam com veículos de locadoras,
-            frotas corporativas e concessionárias, geralmente com manutenção em dia e boas condições gerais.
+            Reconhecido por seu foco em veículos seminovos e usados em bom estado, o Manheim é uma das maiores redes
+            de leilões automotivos voltado ao mercado de revenda. Seus leilões contam com veículos de locadoras,
+            frotas corporativas e concessionárias, geralmente com manutenções em dia e boas condições gerais.
             É o leilão ideal para revendedores, lojistas e compradores que buscam veículos prontos para uso com menor risco.
           </>
         }
-
         imageWidth="50%"
       />
 
-      <Price/>
+      <Price />
 
       <About 
-      image={ person }
-      title="Mas afinal, quem somos?"
-      description="Somos um grupo de investidores brasileiros que, por gostar muito de carros e observar que existe uma forma de levar liberdade financeira para brasileiros que vivem no exterior, se uniu e, além da VCUSA Auto Sales, que é nosso dealer (revenda de carros), fundou a VCUSA Auto Service.
-      Desde então, com a ideia de ajudar seus seguidores a conquistar a tão sonhada liberdade financeira revendendo carros, o grupo, além de investir nos carros de leilão para revenda na VCUSA Auto Sales, iniciou investimentos na parte educacional e de broker, onde o sócio Adriano, responsável pela gestão da companhia em solo americano, encabeçou o projeto e passou a ensinar sobre a parte técnica de como adquirir e escolher os melhores carros e, assim, conquistar lucros através da parceria e união com nossa organização empresarial."
-      imageWidth="90%"
+        image={person}
+        title="Mas afinal, quem somos?"
+        description="Somos um grupo de investidores brasileiros que, por gostar muito de carros e observar que existe uma forma de levar liberdade financeira para brasileiros que vivem no exterior, se uniu e, além da VCUSA Auto Sales, que é nosso dealer (revenda de carros), fundou a VCUSA Auto Service.
+        Desde então, com a ideia de ajudar seus seguidores a conquistar a tão sonhada liberdade financeira revendendo carros, o grupo, além de investir nos carros de leilão para revenda na VCUSA Auto Sales, iniciou investimentos na parte educacional e de broker, onde o sócio Adriano, responsável pela gestão da companhia em solo americano, encabeçou o projeto e passou a ensinar sobre a parte técnica de como adquirir e escolher os melhores carros e, assim, conquistar lucros através da parceria e união com nossa organização empresarial."
+        imageWidth="90%"
+        roundedBg // ✅ moldura branca circular
       />
 
-      <Faq/>
+      <Faq />
 
-      <Footer/>
+      <Footer />
     </div>
   )
 }
